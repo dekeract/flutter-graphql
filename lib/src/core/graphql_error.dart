@@ -48,7 +48,7 @@ class GraphQLError {
   final List<Location> locations;
 
   /// The path of the field in error.
-  final List<dynamic> path;
+  final dynamic path;
 
   /// Custom error data returned by your GraphQL API server
   final Map<String, dynamic> extensions;
